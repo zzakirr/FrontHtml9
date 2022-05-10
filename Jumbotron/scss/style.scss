@@ -1,0 +1,119 @@
+@import '_base';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    padding: 20px 0;
+    background-color: #343a40;
+
+    .logo {
+        width: 7%;
+        padding: 0 0 0 20px;
+        @include menulogo($font: 20px)
+    }
+
+    .menu {
+        width: 80%;
+
+        ul {
+            li {
+                @include menulogo() margin-left: 15px;
+
+
+            }
+
+            li:nth-child(3) {
+                @include menulogo($color: #ffffff40)
+            }
+
+            li:nth-child(even) {
+
+                @include menulogo($color: #ffffff80)
+            }
+            li:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+    .search {
+        width: 23%;
+
+        input {
+            border: none;
+            border-radius: 3px;
+            padding: 7px;
+        }
+
+        button {
+            border: 1px solid;
+            border-color: $gren-color;
+            color: $gren-color;
+            background-color: none;
+            border-radius: 3px;
+            padding: 5px;
+        }
+
+        button:hover {
+            background-color: $gren-color;
+            color: #fff;
+        }
+    }
+}
+
+main {
+    height: 600px;
+
+    .learn {
+        height: 50%;
+        background-color: #e9ecef;
+        padding: 50px;
+
+        button {
+            @extend %buttons;
+            background-color: #007bff;
+
+            i {
+                font-size: 10px;
+                padding-left: 2px;
+            }
+        }
+
+        button:hover {
+            background-color: #114f92;
+        }
+    }
+
+    .boxes {
+        height: 50%;
+        justify-content: space-between;
+        padding: 30px 0;
+
+        .box {
+            padding-left: 30px;
+            margin-left: 10px;
+
+            button {
+                @extend %buttons;
+
+                i {
+                    font-size: 10px;
+                    padding-left: 2px;
+                }
+            }
+
+            button:hover {
+                background-color: rgb(95, 101, 107);
+            }
+        }
+    }
+}
+
+footer {
+    .copyright {
+        margin-bottom: 15px;
+    }
+}

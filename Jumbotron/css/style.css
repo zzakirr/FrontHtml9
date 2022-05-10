@@ -1,0 +1,121 @@
+main .learn button, main .boxes .box button {
+  background-color: #6c757d;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  padding: 20px 0;
+  background-color: #343a40;
+}
+
+.head .logo {
+  width: 7%;
+  padding: 0 0 0 20px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.head .menu {
+  width: 80%;
+}
+
+.head .menu ul li {
+  font-size: 16px;
+  color: #ffffff;
+  margin-left: 15px;
+}
+
+.head .menu ul li:nth-child(3) {
+  font-size: 16px;
+  color: #ffffff40;
+}
+
+.head .menu ul li:nth-child(even) {
+  font-size: 16px;
+  color: #ffffff80;
+}
+
+.head .menu ul li:hover {
+  cursor: pointer;
+}
+
+.head .search {
+  width: 23%;
+}
+
+.head .search input {
+  border: none;
+  border-radius: 3px;
+  padding: 7px;
+}
+
+.head .search button {
+  border: 1px solid;
+  border-color: #28a745;
+  color: #28a745;
+  background-color: none;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.head .search button:hover {
+  background-color: #28a745;
+  color: #fff;
+}
+
+main {
+  height: 600px;
+}
+
+main .learn {
+  height: 50%;
+  background-color: #e9ecef;
+  padding: 50px;
+}
+
+main .learn button {
+  background-color: #007bff;
+}
+
+main .learn button i {
+  font-size: 10px;
+  padding-left: 2px;
+}
+
+main .learn button:hover {
+  background-color: #114f92;
+}
+
+main .boxes {
+  height: 50%;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+main .boxes .box {
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+main .boxes .box button i {
+  font-size: 10px;
+  padding-left: 2px;
+}
+
+main .boxes .box button:hover {
+  background-color: #5f656b;
+}
+
+footer .copyright {
+  margin-bottom: 15px;
+}
+/*# sourceMappingURL=style.css.map */

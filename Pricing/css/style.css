@@ -1,0 +1,95 @@
+.head {
+  box-shadow: 0 3px 3px lightgray;
+}
+
+.head .logo {
+  padding: 15px;
+}
+
+.head .logo span {
+  font-size: 20px;
+}
+
+.head .menu {
+  padding: 15px;
+}
+
+.head .menu a {
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.head .menu .sign {
+  color: #007bff;
+  border: 1px solid;
+  border-color: #007bff;
+  border-radius: 4px;
+}
+
+.head .menu a:hover {
+  text-decoration: underline;
+}
+
+.head .menu .sign:hover {
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+}
+
+.main {
+  margin: 40px 0 20px;
+}
+
+.main p {
+  margin-bottom: 20px;
+}
+
+.main .box .box-head {
+  border: 1px solid;
+  border-color: lightgray;
+  background-color: #eae7e7;
+}
+
+.main .box .box-bottom {
+  border: 1px solid;
+  border-color: lightgray;
+}
+
+.main .box .box-bottom p:nth-child(1) {
+  margin-bottom: 15px;
+}
+
+.main .box .box-bottom button {
+  margin: 10px 15px;
+  padding: 10px 25px;
+  border-radius: 3px;
+  border-width: 1px;
+  background-color: #007bff;
+  color: white;
+}
+
+.main .box .box-bottom .first-button {
+  background-color: white;
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.main .box .box-bottom button:hover {
+  background-color: #104d8f;
+}
+
+.main .box .box-bottom .first-button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.foot {
+  margin: 40px 0;
+  padding: 40px 0;
+}
+
+.foot .box a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */
